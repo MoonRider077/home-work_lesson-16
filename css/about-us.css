@@ -1,0 +1,253 @@
+.header {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding-top: 43px;
+}
+
+.header__menu {
+    padding-top: 50px;
+    display: flex;
+    gap: 33px;
+}
+
+.header__menu a {
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    color: #83888F;
+}
+
+.header__menu a:hover {
+    color: var(--text-color-black);
+}
+
+.first__section {
+    padding-top: 43.44px;
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
+.container {
+    width: 1280px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url('../images/coffee-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container h2 {
+    padding-top: 137px;
+    padding-left: 85px;
+    font-family: 'Fraunces 9pt';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: var(--text-color-white);
+}
+
+.container p {
+    padding-top: 24px;
+    padding-left: 85px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--text-color-white);
+}
+
+.second__section {
+    max-width: 1440px;
+    padding-top: 168px;
+    margin: 0 auto;
+}
+
+.second__container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    gap: 125px;
+}
+
+.second__side h2 {
+    padding-top: 90px;
+    font-family: 'Fraunces 9pt';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: var(--text-color-black);
+}
+
+.second__side p {
+    padding-top: 32px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 80%;
+    color: var(--text-color-black);
+}
+
+.third__section {
+    position: relative;
+    max-width: 1440px;
+    padding-top: 256px;
+    margin: 0 auto;
+}
+
+.third__container {
+    width: 1280px;
+    height: 474px;
+    margin: 0 auto;
+    background-color: #2C343E;
+}
+
+.third__container h2 {
+    padding-top: 88px;
+    padding-left: 85px;
+    text-align: left;
+    font-family: 'Fraunces 9pt';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: var(--text-color-white);
+}
+
+.third__container p {
+    padding-top: 32px;
+    padding-left: 85px;
+    text-align: left;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--text-color-white);
+    opacity: 80%;
+}
+
+.third__container_banner {
+    position: absolute;
+    left: 790px;
+    top: 163px
+}
+
+.last__section {
+    padding-top: 165px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.last__container {
+    width: 1045px;
+    margin: 0 auto;
+}
+
+.last__container h2 {
+    font-family: 'Fraunces 9pt';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.card__row {
+    display: flex;
+    gap: 95px;
+    padding-top: 72px;
+    padding-left: 165px;
+}
+
+.card {
+    width: 285px;
+    height: 262px;
+}
+
+.card h3 {
+    padding-top: 46px;
+    font-family: 'Fraunces 9pt';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: var(--text-color-black);
+}
+
+.card h2 {
+    padding-top: 24px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+    color: var(--text-color-black);
+}
+
+.card p {
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+    color: var(--text-color-black);
+}
+
+.card .asutralia {
+    padding-top: 53px;
+}
+
+footer {
+    display: flex;
+    gap: 368px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 120px;
+    background-color: #2C343E;
+}
+
+.footer {
+    margin-top: 200px;
+}
+
+.footer__first_side {
+    display: flex;
+    gap: 103px;
+}
+
+.footer__logo {
+    padding-left: 85px;
+    padding-top: 47px;
+}
+
+.footer__title {
+    padding-top: 53.44px;
+    display: flex;
+    gap: 33px; 
+}  
+
+.footer__title a{
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    color: #83888F;
+}
+
+.footer__title a:hover {
+    color: var(--text-color-white);
+}
+
+.footer__second_side {
+    padding-top: 47px;
+    display: flex;
+    gap: 24px;
+}
+
+.footer__second_side img {
+    cursor: pointer;
+}

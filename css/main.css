@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url(../fonts/Fraunces_9pt-Black.ttf) format(truetype);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(../fonts/Barlow-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(../fonts/Barlow-Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --text-color-white: #FEFCF7;
+    --text-color-black: #333D4B;
+}
+
